@@ -1,0 +1,76 @@
+* {
+  font-family: 'Kalam', cursive;
+}
+
+.pageHeader {
+  text-align: center;
+  align-content: center;
+  color: antiquewhite;
+  background-color: #52361b;
+  border: 2px dotted #d2f5ce;
+  display: block;
+  margin: auto;
+  width: 50%;
+
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+.shop {
+  display: flex;
+  flex-basis: 30%;
+  border: 2px dotted #52361b;
+  margin: 10px;
+  font-size: 15px;
+  color: #52361b;
+  background-color: antiquewhite;
+}
+
+body {
+  background-image: url(images-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.shop:hover {
+ height: 5%;
+/* border: 1px solid;*/
+ padding: 10px;
+box-shadow: 5px 10px #9f5919;
+}
+
+
+ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 2px;
+}
+  
+a:link{ 
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: white;
+}
+.brownColor { 
+  color: antiquewhite;
+  background-color: #52361b;
+  border: 2px dotted #d2f5ce;
+  display: block;
+  margin: 10px;
+}
+.footer {
+text-align: center;
+}
