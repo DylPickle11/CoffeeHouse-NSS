@@ -61,10 +61,11 @@ li a {
   text-decoration: none;
   color: red;
 }
+
 a:hover {
   color: white;
 }
-}
+
 .brownColor { 
   color: antiquewhite;
   background-color: #52361b;
@@ -73,5 +74,7 @@ a:hover {
   margin: 10px;
 }
 .footer {
-text-align: center;
+  text-align: center;
+  margin: 0 auto;
+
 }
